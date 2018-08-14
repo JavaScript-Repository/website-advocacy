@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 /*    CSS HEAD      */
 #cabeca{
@@ -21,18 +22,44 @@ body{
         padding: 3%;
         margin-top: 5%; 
         font-family: 'Italianno';
+        color: red;
 }
 #head3 img{
     float: right;
     width: 20%;
-    background: blue;
+    
+}
+/*    CSS MENU      */
+#listaMenu ul{
+    padding: 0.8%;
+    list-style: none;
+    text-align: center;
+    background: linear-gradient(rgb(114, 114, 241),rgb(198, 198, 223));
+}
+#listaMenu li{
+    padding: 0.5%;
+    display: inline;
+
+}
+#listaMenu a{
+    padding: 0.5%;
+    border: 1px solid;
+    display: inline;
+    color: black;
+    background: rgb(255, 142, 76);
+
+
 }
 /*    CSS BODY      */
+#bodyCarousel{
+    background: white;
+    margin: 0;
+
+}
 .sizeCarousel {
-    background:blue;
-    width: 700px;
-    height: auto;
-    max-width: 700px;
+    width: 500px;
+    margin: 3%;
+    opacity: 0.7;
 }
 /*    CSS FOOT      */
 #foot{
