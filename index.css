@@ -34,7 +34,7 @@ body{
     padding: 0.8%;
     list-style: none;
     text-align: center;
-    background: linear-gradient(rgb(114, 114, 241),rgb(198, 198, 223));
+
 }
 #listaMenu li{
     padding: 0.5%;
@@ -49,6 +49,23 @@ body{
     background: rgb(255, 142, 76);
 
 
+}
+/*    CSS MENU PRATICAS      */
+#bodyPraticas{
+    text-align: center;
+    list-style: none;
+}
+#bodyPraticas ol{
+
+    list-style: none;
+}
+#bodyPraticas ul{
+
+    list-style: none;
+}
+#bodyPraticas ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid;
 }
 /*    CSS BODY      */
 #bodyCarousel{
@@ -70,14 +87,14 @@ body{
 #foot ul{
     margin-top: 3%; 
     list-style: none;
-    border-top: 2px solid;
+
 }
 #foot h2{
-
+    font-family: 'Maiden Orange';
     margin-top: 2%; 
 }
 #foot li{
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*       Responsivo       */
